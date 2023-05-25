@@ -1,7 +1,7 @@
 {
   "name": "research-app",
   "private": true,
-  "homepage": "http://dlaborde27.github.io/ResearchApp",
+  "homepage": "https://dlaborde27.github.io/ResearchApp",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
