@@ -1,0 +1,47 @@
+.nav-item {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav-item:hover {
+    color: blueviolet;
+    transition: .4s;
+}
+
+#navbar {
+    position: static;
+    padding: 16px 50px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+/*
+#navbar a {
+    color: white;
+}
+
+#navbar a .logo {
+    height: 100%;
+}*/
+
+#nav-list {
+    list-style: none;
+    display: flex;
+}
+
+#nav-list li {
+    margin: 0 25px;
+}
+
+.active-link {
+    text-decoration: none;
+    color: rgb(182, 25, 25);
+    font-weight: 600;
+}
+
+
+
+
+

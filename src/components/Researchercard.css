@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+.circle {
+    border-radius: 100%;
+}
+
+.integrantes {
+    display: flex;
+}
+
+.integrantes div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 35px;
+    margin-left: 20px;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.carrer {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
