@@ -1,0 +1,13 @@
+#route {
+    word-spacing: 5px;
+    font-weight: 500;
+}
+
+#route span{
+    color: brown;
+}
+
+#link {
+    text-decoration: none;
+    color:darkgrey;
+}

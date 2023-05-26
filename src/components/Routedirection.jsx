@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
+import "./Routedirection.css"
 
 export function Routedirection(props) {
     return (
         <> 
-            <NavLink to="/">Home</NavLink> <span> / {props.mensaje}</span>
+            <span id="route"><NavLink id="link" to="/">Home</NavLink> <span> / </span> {props.mensaje}</span>
         </>
     )
 }

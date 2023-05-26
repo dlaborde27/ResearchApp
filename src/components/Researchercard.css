@@ -2,18 +2,20 @@
 
 .circle {
     border-radius: 100%;
+    width: 170px;
 }
 
 .integrantes {
     display: flex;
+    column-gap: 25px;
 }
 
 .integrantes div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    line-height: 35px;
-    margin-left: 20px;
+    line-height: 30px;
+    row-gap: 8px;
 }
 
 .name {
@@ -22,7 +24,8 @@
 }
 
 .carrer {
+    line-height: 24px;
     font-family: 'Work Sans', sans-serif;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 600;
 }
