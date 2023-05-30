@@ -1,6 +1,6 @@
 import { Routedirection } from "../components/Routedirection";
 import { Researchercard } from "../components/Researchercard";
-import equipoFake from "../../public/edwin_valarezo.jpg"
+import equipoFake from "../../public/equipo-fake.jpg"
 import edwinValarezo from "../../public/edwin_valarezo.jpg"
 import carlos from "../../public/carlos.jpg"
 import daniela from "../../public/daniela.jpg"
