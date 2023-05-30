@@ -20,7 +20,7 @@ export function People() {
                         <h2>Team Members</h2>
                         <div id="grid">
                             <Researchercard pathname="../assets/img/integrantes/carlos.jpg" name="Carlos Jimenez Farfan" carrer="Computer Science Engineer" />
-                            <Researchercard pathname="daniela.jpg" name="Daniela Espin Ramos" carrer="Mechatronics Engineer" />
+                            <Researchercard pathname="danisssela.jpg" name="Daniela Espin Ramos" carrer="Mechatronics Engineer" />
                             <Researchercard pathname="dario.jpg" name="Dario Laborde Jimenez" carrer="Computer Science Engineer" />
                             <Researchercard pathname="jose_miguel.jpg" name="Jose Miguel Santos" carrer="Mechatronics Engineer" />
                             <Researchercard pathname="josue_cajamarca_contreras.jpg" name="Jose Cajamarca Contreras" carrer="Mechatronics Engineer" />
