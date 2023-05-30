@@ -15,7 +15,7 @@ export function People() {
                         </div>
                         <h2>Team Leaders</h2>
                         <div id="grid">
-                            <Researchercard pathname="edwin_valarezo.jpg" name="Edwin Valarezo Añazco" carrer="Ph.D. in Electronics and Information Convergence Engineering" />
+                            <Researchercard pathname="../../public/edwin_valarezo.jpg" name="Edwin Valarezo Añazco" carrer="Ph.D. in Electronics and Information Convergence Engineering" />
                         </div>
                         <h2>Team Members</h2>
                         <div id="grid">
