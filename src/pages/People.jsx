@@ -1,6 +1,8 @@
 import { Routedirection } from "../components/Routedirection";
 import { Researchercard } from "../components/Researchercard";
-import xd from "../assets/img/integrantes/carlos.jpg"
+import edwinValarezo from "../../public/edwin_valarezo.jpg"
+import carlos from "../../public/carlos.jpg"
+import carlos from "../../public/carlos.jpg"
 import "./People.css"
 
 export function People() {
@@ -16,11 +18,11 @@ export function People() {
                         </div>
                         <h2>Team Leaders</h2>
                         <div id="grid">
-                            <Researchercard pathname="../../public/edwin_valarezo.jpg" name="Edwin Valarezo Añazco" carrer="Ph.D. in Electronics and Information Convergence Engineering" />
+                            <Researchercard pathname={edwinValarezo} name="Edwin Valarezo Añazco" carrer="Ph.D. in Electronics and Information Convergence Engineering" />
                         </div>
                         <h2>Team Members</h2>
                         <div id="grid">
-                            <Researchercard pathname={xd} name="Carlos Jimenez Farfan" carrer="Computer Science Engineer" />
+                            <Researchercard pathname={carlos} name="Carlos Jimenez Farfan" carrer="Computer Science Engineer" />
                             <Researchercard pathname="daniela.jpg" name="Daniela Espin Ramos" carrer="Mechatronics Engineer" />
                             <Researchercard pathname="dario.jpg" name="Dario Laborde Jimenez" carrer="Computer Science Engineer" />
                             <Researchercard pathname="jose_miguel.jpg" name="Jose Miguel Santos" carrer="Mechatronics Engineer" />
