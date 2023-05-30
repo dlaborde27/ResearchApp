@@ -2,7 +2,6 @@ import { Routedirection } from "../components/Routedirection";
 import { Researchercard } from "../components/Researchercard";
 import edwinValarezo from "../../public/edwin_valarezo.jpg"
 import carlos from "../../public/carlos.jpg"
-import carlos from "../../public/carlos.jpg"
 import "./People.css"
 
 export function People() {
