@@ -1,13 +1,13 @@
 import { Routedirection } from "../components/Routedirection";
+import "./Home.css"
 
 export function Home() {
   return (
     <>
-      <div>
-        <h1>Home</h1>
-        <div>
-          <div>
-            <Routedirection mensaje="Home" />
+      <div id="all-content">
+        <h1 id="text">Home</h1>
+        <div id="primary-content">
+          <div id="separated-content">
             <article id="primary-content">Welcome to the Bioinformatics and Laboratory of Machine Learning (LBA<sup>2</sup>). Led by Dr. Edwin Valarezo, our laboratory is dedicated to research in Machine Learning and its application in the field of Bioinformatics.</article>
             <div id="content-image">
               <div id="secondary-content">
@@ -22,7 +22,7 @@ export function Home() {
               </div>
               <iframe width="600" src="https://www.youtube.com/embed/Js1E1XCZPoM&ab_channel=CodeReview" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
-          </div>
+          </div>  
         </div>
       </div>
     </>
