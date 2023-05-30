@@ -33,8 +33,8 @@ export function People() {
                             <Researchercard pathname={dario} name="Dario Laborde Jimenez" carrer="Computer Science Engineer" />
                             <Researchercard pathname={joseMiguel} name="Jose Miguel Santos" carrer="Mechatronics Engineer" />
                             <Researchercard pathname={josueCajamarcaContreras} name="Jose Cajamarca Contreras" carrer="Mechatronics Engineer" />
-                            <Researchercard pathname={vicenteAlvaradoToala} name="Jose Cajamarca Contreras" carrer="Mechatronics Engineer" />
-                            <Researchercard pathname={bolivarNunezMontoya} name="Jose Cajamarca Contreras" carrer="Mechatronics Engineer" />
+                            <Researchercard pathname={vicenteAlvaradoToala} name="Vicente Alvarado Toala" carrer="Mechatronics Engineer" />
+                            <Researchercard pathname={bolivarNunezMontoya} name="Bolivar Nunez Montoya" carrer="Mechatronics Engineer" />
                         </div>
                     </div>
                 </div>
