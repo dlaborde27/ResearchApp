@@ -9,6 +9,7 @@ import joseMiguel from "../../public/jose_miguel.jpg"
 import josueCajamarcaContreras from "../../public/josue_cajamarca_contreras.jpg"
 import vicenteAlvaradoToala from "../../public/vicente_alvarado_toala.png"
 import bolivarNunezMontoya from "../../public/bolivar_nunez_montoya.png"
+import domenicaCordovaBermeo from "../../public/domenica_cordova_bermeo.jpg"
 import "./People.css"
 
 export function People() {
@@ -35,6 +36,7 @@ export function People() {
                             <Researchercard pathname={josueCajamarcaContreras} name="Jose Cajamarca Contreras" carrer="Mechatronics Engineer" />
                             <Researchercard pathname={vicenteAlvaradoToala} name="Vicente Alvarado Toala" carrer="Mechatronics Engineer" />
                             <Researchercard pathname={bolivarNunezMontoya} name="Bolivar Nunez Montoya" carrer="Mechatronics Engineer" />
+                            <Researchercard pathname={domenicaCordovaBermeo} name="Domenica Cordova Bermeo" carrer="Mechatronics Engineer" />
                         </div>
                     </div>
                 </div>
