@@ -18,6 +18,8 @@ footer {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    row-gap: 1.5rem;
+    margin: 2.3% 0;
 }
 
 .footer-content h3{
@@ -32,12 +34,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0.4rem 0 1.8rem 0;
     padding: 0;
 }
 
 .socials li{
-    margin: 0 10px;
+    margin: 0 20%;
 }
 
 .socials a{
@@ -58,12 +59,19 @@ footer {
 .footer-bottom{
     background: #000;
     width: 100%;
-    padding: 15px 0;
+    padding: 1.7% 0;
     text-align: center;
 }
 
 .footer-bottom p{
-    font-size: 12px;
+    font-size: 0.9rem;
     word-spacing: 2px;
     text-transform: capitalize;
+}
+
+@media only screen and (max-width: 700px) {
+    .footer-bottom p{
+        font-size: 60%;
+        text-transform: capitalize;
+    }
 }
