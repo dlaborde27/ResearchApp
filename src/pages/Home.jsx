@@ -8,19 +8,20 @@ export function Home() {
         <h1 id="text">Home</h1>
         <div id="primary-content">
           <div id="separated-content">
-            <article id="primary-content">Welcome to the Bioinformatics and Laboratory of Machine Learning (LBA<sup>2</sup>). Led by Dr. Edwin Valarezo, our laboratory is dedicated to research in Machine Learning and its application in the field of Bioinformatics.</article>
+            <article>"Welcome to the Laboratory of Bioinformatics and Autonomous Learning (LBA<sup>2</sup>) . Our laboratory, led by Dr. Edwin Valarezo Añazco, is dedicated to fundamental research in bioinformatics and applications of artificial intelligence in the field of life sciences.
+<br /><br />
+In our laboratory, we are passionate about applying machine learning and computer vision techniques to address various challenges in bioinformatics. We explore the development of machine learning models for the analysis and understanding of biological data, such as microscopy images. Additionally, we conduct research in simulated environments using platforms to simulate and optimize artificial intelligence solutions.</article>
             <div id="content-image">
               <div id="secondary-content">
-                <article>At LABioML, we focus on utilizing Machine Learning and Data Mining techniques to extract valuable insights from large biological datasets. Our goal is to develop advanced algorithms and models that enable efficient and accurate analysis of genetic and molecular information.
-                  Our research areas:
+                <article>Our approach is based on cutting-edge research in artificial intelligence, where we develop advanced machine learning algorithms and computer vision techniques. We are particularly interested in generative approaches for synthesizing biological data, deep models and explainability in artificial intelligence, metric and representation learning, and self-supervised learning paradigms. These advancements lay the foundation for innovative applications in the field of bioinformatics, as well as for the generation of scientific knowledge through academic publications.
+<br /> <br />
+The Laboratory of Bioinformatics and Autonomous Learning is affiliated with:
                   <ul>
-                    <li>Department of Biology at XYZ University</li>
-                    <li>Internationally renowned Bioinformatics Center</li>
-                    <li>Collaboration Network in Machine Learning and Artificial Intelligence in Biomedicine</li>
+                    <li>Escuela Politécnica del Litoral (ESPOL)</li>
                   </ul>
                 </article>
               </div>
-              <iframe width="600" src="https://www.youtube.com/embed/Js1E1XCZPoM&ab_channel=CodeReview" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <iframe width="550" height="315" src="https://www.youtube.com/embed/aFuA50H9uek?controls=0&loop=1&playlist=aFuA50H9uek&autoplay=1&mute=1&start=15&end=30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
           </div>  
         </div>

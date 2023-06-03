@@ -8,6 +8,7 @@ import { Research } from "./pages/Research"
 import { Teaching } from "./pages/Teaching"
 import { Openpositions } from "./pages/Openpositions"
 import { Contact } from "./pages/Contact"
+import "./App.css"
 
 function App() {
 
@@ -15,19 +16,21 @@ function App() {
     <>
       <div className='App'>
         <BrowserRouter>
-          <Navbar />
-          <main>
-            <Routes>
-              <Route path="/ResearchApp/" element={<Home />}></Route>
-              <Route path="/people/" element={<People />}></Route>
-              <Route path="/publications/" element={<Publications />}></Route>
-              <Route path="/research/" element={<Research />}></Route>
-              <Route path="/teaching/" element={<Teaching />}></Route>
-              <Route path="/openpositions/" element={<Openpositions />}></Route>
-              <Route path="/contact/" element={<Contact />}></Route>
-            </Routes>
-          </main>
-          <Footer />
+          <div id="content">
+            <Navbar />
+            <main>
+              <Routes>
+                <Route path="/" element={<Home />}></Route>
+                <Route path="/people/" element={<People />}></Route>
+                <Route path="/publications/" element={<Publications />}></Route>
+                <Route path="/research/" element={<Research />}></Route>
+                <Route path="/teaching/" element={<Teaching />}></Route>
+                <Route path="/openpositions/" element={<Openpositions />}></Route>
+                <Route path="/contact/" element={<Contact />}></Route>
+              </Routes>
+            </main>
+            <Footer />
+          </div>
         </BrowserRouter>
       </div>
     </>

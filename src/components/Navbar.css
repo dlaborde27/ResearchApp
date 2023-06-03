@@ -1,3 +1,14 @@
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    padding: 1%;
+    background-color: #111;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
 .nav-item {
     text-decoration: none;
     color: aliceblue;
@@ -8,27 +19,11 @@
     transition: .4s;
 }
 
-#navbar {
-    position: static;
-    padding: 16px 50px;
-    background: #111;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    box-sizing: border-box;
-}
-/*
-#navbar a {
-    color: white;
-}
-
-#navbar a .logo {
-    height: 100%;
-}*/
-
 #nav-list {
+    width: 100%;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #nav-list li {

@@ -1,10 +1,10 @@
 footer {
-    align-items: center;
     left: 0;
     right: 0;
     bottom: 0;
+    align-items: center;
     background: #111;
-    height: auto;
+    height: 100%;
     width: 100%;
     font-family: "Open Sans";
     padding-top: 5px;

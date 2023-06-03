@@ -21,7 +21,7 @@ export function People() {
                     <div id="separated-content">
                         <Routedirection mensaje="People" />
                         <div id="img">
-                            <img src={equipoFake} alt="equipo fake" width="800" />
+                            <img src={equipoFake} alt="equipo fake"/>
                         </div>
                         <h2>Team Leaders</h2>
                         <div id="grid">
