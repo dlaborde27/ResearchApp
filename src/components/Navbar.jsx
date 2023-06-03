@@ -5,6 +5,7 @@ export function Navbar() {
   return (
     <>
       <nav id='navbar'>
+        <NavLink id="logo" to="/">LBA<sup>2</sup></NavLink>
         <ul id='nav-list'>
           <li><NavLink className={({ isActive })=> isActive ? "active-link" : "nav-item" } to="/">Home</NavLink></li>
           <li><NavLink className={({ isActive })=> isActive ? "active-link" : "nav-item" } to="/people">People</NavLink></li>
@@ -14,6 +15,7 @@ export function Navbar() {
           <li><NavLink className={({ isActive })=> isActive ? "active-link" : "nav-item" } to="/openpositions">Open Positions</NavLink></li>
           <li><NavLink className={({ isActive })=> isActive ? "active-link" : "nav-item" } to="/contact">Contact</NavLink></li>
         </ul>
+        <img id="menu" src="../../public/menu-btn.png" alt="menu" />
       </nav>
     </>
   )
