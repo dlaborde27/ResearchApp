@@ -1,3 +1,4 @@
+import menu from "../../public/menu-btn.png"
 import './Navbar.css';
 import { NavLink } from "react-router-dom"
 
@@ -15,7 +16,7 @@ export function Navbar() {
           <li><NavLink className={({ isActive })=> isActive ? "active-link" : "nav-item" } to="/openpositions">Open Positions</NavLink></li>
           <li><NavLink className={({ isActive })=> isActive ? "active-link" : "nav-item" } to="/contact">Contact</NavLink></li>
         </ul>
-        <img id="menu" src="../../public/menu-btn.png" alt="menu" />
+        <img id="menu" src={menu} alt="menu" />
       </nav>
     </>
   )
