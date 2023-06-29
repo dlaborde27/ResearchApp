@@ -8,12 +8,12 @@ import { Research } from "./pages/Research"
 import { Teaching } from "./pages/Teaching"
 import { Openpositions } from "./pages/Openpositions"
 import { Contact } from "./pages/Contact"
+import { ChakraProvider } from '@chakra-ui/react'
 import "./App.css"
 
 function App() {
-
   return (
-    <>
+    <ChakraProvider>
       <div className='App'>
         <HashRouter>
           <div id="content">
@@ -33,7 +33,7 @@ function App() {
           </div>
         </HashRouter>
       </div>
-    </>
+    </ChakraProvider>
   )
 }
 
