@@ -1,4 +1,6 @@
 import {
+    Text,
+    Heading,
     Button,
     Modal,
     ModalOverlay,
@@ -28,8 +30,11 @@ export function Publicationcard(props) {
 
                 <ModalBody>
                     <img src={props.img} alt="cf"/>
-                    <p>{props.summary}</p>
+                    <Heading as='h2' size='lg' my={4}>Summary:</Heading>
+                    <Text fontSize='md' textAlign={"justify"}>{props.summary}</Text>
+                    {props.img2Title && <Heading as='h2' size='lg' my={4}>{props.img2Title}</Heading>}
                     {props.img2 && <img src={props.img2} alt="cf" />}
+                    {props.videoTitle && <Heading as='h2' size='lg' my={4}>{props.videoTitle}</Heading>}
                     {props.video && <video autoPlay loop muted controls src={props.video}></video>}
                 </ModalBody>
 
