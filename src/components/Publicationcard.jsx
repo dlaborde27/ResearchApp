@@ -1,59 +1,45 @@
-import {
-    Text,
-    Heading,
-    Button,
-    Modal,
-    ModalOverlay,
-    ModalContent,
-    ModalHeader,
-    ModalCloseButton,
-    ModalBody,
-    ModalFooter,
-    useDisclosure,
-  } from '@chakra-ui/react';
-  import React from 'react';
+import { Publicationmodal } from "../components/Publicationmodal";
 
+import { Link } from '@chakra-ui/react'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { Box } from '@chakra-ui/react'
+import { Card, CardBody, CardFooter, Center } from '@chakra-ui/react'
+import { Text } from '@chakra-ui/react'
+import { Stack } from '@chakra-ui/react'
+import { Image } from '@chakra-ui/react'
+import { Heading } from '@chakra-ui/react'
+import { Divider } from '@chakra-ui/react'
 
 export function Publicationcard(props) {
-    const OverlayOne = () => (
-      <ModalOverlay
-        bg='none'
-        backdropFilter='auto'
-        backdropInvert='80%'
-        backdropBlur='2px'
-      />
-    )
-    const { isOpen, onOpen, onClose } = useDisclosure()
-    const [scrollBehavior, setScrollBehavior] = React.useState('inside')
-    const [size, setSize] = React.useState('xl')
-    const [overlay, setOverlay] = React.useState(<OverlayOne />)
     return (
-      <>
-        <Button onClick={onOpen}>{props.investigation}</Button>
-  
-        <Modal blockScrollOnMount={false} isOpen={isOpen} onClose={onClose} scrollBehavior={scrollBehavior} size={size}>
-        {overlay}
-          <ModalOverlay>
-            <ModalContent>
-                <ModalHeader>{props.investigation}</ModalHeader>
-                <ModalCloseButton />
-
-                <ModalBody>
-                    <img src={props.img} alt="cf"/>
-                    <Heading as='h2' size='lg' my={4}>Summary:</Heading>
-                    <Text fontSize='md' textAlign={"justify"}>{props.summary}</Text>
-                    {props.img2Title && <Heading as='h2' size='lg' my={4}>{props.img2Title}</Heading>}
-                    {props.img2 && <img src={props.img2} alt="cf" />}
-                    {props.videoTitle && <Heading as='h2' size='lg' my={4}>{props.videoTitle}</Heading>}
-                    {props.video && <video autoPlay loop muted controls src={props.video}></video>}
-                </ModalBody>
-
-                <ModalFooter bg="white">
-                    <Button onClick={onClose}>Close</Button>
-                </ModalFooter>
-            </ModalContent>
-          </ModalOverlay>
-        </Modal>
-      </>
-    )
-  }
+        <>
+            <Card maxW='sm'>
+                <CardBody>
+                    <Image src={props.img} alt={props.img} borderRadius='lg'/>
+                    <Stack mt='6' spacing='3'>
+                        <Heading size='md'>{props.investigation}</Heading>
+                        <Box>
+                            <Text><Text as='b'>Published on: </Text> I{props.orgPublished} </Text>
+                        </Box>
+                        <Box>
+                            <Text as='b'>Available on: </Text>
+                            <Link href={props.linkInvestigation} isExternal> Investigation online <ExternalLinkIcon mx='2px' /></Link>
+                        </Box>
+                    </Stack>
+                </CardBody>
+                <Divider />
+                <CardFooter>
+                    <Center w='100%'>
+                        <Publicationmodal investigation={props.investigation}
+                        summary={props.summary}
+                        img={props.img}
+                        img2Title={props.img2Title}
+                        img2={props.img2}
+                        videoTitle={props.videoTitle}
+                        video={props.video}/>
+                    </Center>
+                </CardFooter>
+            </Card>
+        </>
+      )
+}
