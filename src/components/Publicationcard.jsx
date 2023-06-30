@@ -15,14 +15,24 @@ import {
 
 
 export function Publicationcard(props) {
+    const OverlayOne = () => (
+      <ModalOverlay
+        bg='none'
+        backdropFilter='auto'
+        backdropInvert='80%'
+        backdropBlur='2px'
+      />
+    )
     const { isOpen, onOpen, onClose } = useDisclosure()
-    const [scrollBehavior] = React.useState('inside')
+    const [scrollBehavior, setScrollBehavior] = React.useState('inside')
     const [size, setSize] = React.useState('xl')
+    const [overlay, setOverlay] = React.useState(<OverlayOne />)
     return (
       <>
         <Button onClick={onOpen}>{props.investigation}</Button>
   
-        <Modal isOpen={isOpen} onClose={onClose} scrollBehavior={scrollBehavior} size={size}>
+        <Modal blockScrollOnMount={false} isOpen={isOpen} onClose={onClose} scrollBehavior={scrollBehavior} size={size}>
+        {overlay}
           <ModalOverlay>
             <ModalContent>
                 <ModalHeader>{props.investigation}</ModalHeader>
