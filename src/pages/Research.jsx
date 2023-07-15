@@ -43,7 +43,7 @@ export function Research() {
 
                             <Publicationcard investigation="Fully Autonomous Deep Learning RGB-D Vision-based Object Manipulation with an Anthropomorphic Robotic Hand" 
                             orgPublished="Conference of the Korean Society for Communications and Communications"
-                            linkInvestigation="https://journal-home.s3.ap-northeast 2.amazonaws.com/site/2021w/presentation/0072.pdf"
+                            linkInvestigation="https://journal-home.s3.ap-northeast-2.amazonaws.com/site/2021w/presentation/0072.pdf"
                             summary="Autonomous object manipulation with robotic hands is under active investigation because autonomous vision and motor control are required. Vision allows a robotic hand to interact with the environment by estimating the grasping parameters. Motor control generates the motion parameters to reach an object and manipulate the object. In this investigation, Deep Learning RGB-D vision is used to detect the object and generate the grasping parameters of position and orientation. An anthropomorphic robotic hand system composed of UR3 robotic arm and qb soft hand is used for motor functions of object grasping and relocation. Our autonomous object manipulation system achieves an average of 8.5/10 attempts of successful grasping and relocations."
                             img={rgbVision}
                             videoTitle="Manipulation:"
