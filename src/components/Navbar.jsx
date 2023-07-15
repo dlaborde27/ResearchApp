@@ -1,4 +1,5 @@
 import menu from "../../public/menu-btn.png"
+import logo from "../../public/logoLabBlanco.png"
 import './Navbar.css';
 import { NavLink } from "react-router-dom"
 import { Image } from '@chakra-ui/react'
@@ -11,7 +12,7 @@ export function Navbar() {
         <NavLink to="/">
           <Image
           htmlWidth='35%'
-            src='../../public/logoLabBlanco.png'
+            src={logo}
             alt='Logo LBAA'
           />
         </NavLink>
