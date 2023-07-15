@@ -6,7 +6,7 @@ import anthropomorphicRoboticHand from "../../public/anthropomorphicRoboticHand.
 import anthropomorphicRoboticHandDatabase from "../../public/anthropomorphicRoboticHandDatabase.jpg"
 import HWManipulationVideo from "../../public/HWManipulationVideo.mp4"
 import anthropomorphicRoboticHandRealTimeTest from "../../public/anthropomorphicRoboticHandRealTimeTest.mp4"
-import "./Publications.css"
+
 import { Center, Flex, Spacer } from '@chakra-ui/react'
 
 export function Publications() {

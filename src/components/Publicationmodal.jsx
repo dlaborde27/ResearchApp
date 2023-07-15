@@ -31,7 +31,7 @@ export function Publicationmodal(props) {
       <>
         <Button variant='solid' colorScheme='blue' onClick={onOpen}>More information</Button>
   
-        <Modal blockScrollOnMount={false} isOpen={isOpen} onClose={onClose} scrollBehavior={scrollBehavior} size={size}>
+        <Modal isOpen={isOpen} onClose={onClose} scrollBehavior={scrollBehavior} size={size}>
         {overlay}
           <ModalOverlay>
             <ModalContent>

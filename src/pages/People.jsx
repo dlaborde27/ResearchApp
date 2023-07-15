@@ -1,6 +1,6 @@
 import { Routedirection } from "../components/Routedirection";
 import { Researchercard } from "../components/Researchercard";
-import equipoFake from "../../public/equipo-fake.jpg"
+import equipoFake from "../../public/team/team.jpg"
 import edwinValarezo from "../../public/edwin_valarezo.jpg"
 import carlos from "../../public/carlos.jpg"
 import daniela from "../../public/daniela.jpg"
@@ -24,21 +24,25 @@ export function People() {
                         <div id="img">
                             <img src={equipoFake} alt="equipo fake"/>
                         </div>
-                        <h2>Team Leaders</h2>
+                        <h2>Lab Director</h2>
                         <div id="grid">
-                            <Researchercard pathname={edwinValarezo} name="Edwin Valarezo Añazco" carrer="Ph.D. in Electronics and Information Convergence Engineering" />
+                            <Researchercard pathname={edwinValarezo} name="Edwin Valarezo Añazco, Ph.D." carrer="Ph.D. in Electronics and Information Convergence Engineering" />
                         </div>
-                        <h2>Team Members</h2>
+                        <h2>Lab Manager</h2>
                         <div id="grid">
-                            <Researchercard pathname={carlos} name="Carlos Jimenez Farfan" carrer="Computer Science Engineer" />
-                            <Researchercard pathname={daniela} name="Daniela Espin Ramos" carrer="Mechatronics Engineer" />
-                            <Researchercard pathname={dario} name="Dario Laborde Jimenez" carrer="Computer Science Engineer" />
-                            <Researchercard pathname={joseMiguel} name="Jose Miguel Santos" carrer="Mechatronics Engineer" />
-                            <Researchercard pathname={josueCajamarcaContreras} name="Jose Cajamarca Contreras" carrer="Mechatronics Engineer" />
-                            <Researchercard pathname={vicenteAlvaradoToala} name="Vicente Alvarado Toala" carrer="Mechatronics Engineer" />
-                            <Researchercard pathname={bolivarNunezMontoya} name="Bolivar Nunez Montoya" carrer="Mechatronics Engineer" />
-                            <Researchercard pathname={domenicaCordovaBermeo} name="Domenica Cordova Bermeo" carrer="Mechatronics Engineer" />
-                            <Researchercard pathname={erickFloresCampana} name="Erick Flores Campana" carrer="Mechatronics Engineer" />
+                            <Researchercard pathname={daniela} name="Daniela Espin Ramos" carrer="Bioimaging analysis" />
+                        </div>
+                        <h2>Lab Members</h2>
+                        <div id="grid">
+                            <Researchercard pathname={carlos} name="Carlos Jimenez Farfan, Ing" carrer="Autonomous driving" />
+                            <Researchercard pathname={bolivarNunezMontoya} name="Bolivar Nunez Montoya, Ing" carrer="Prótesis" />
+
+                            <Researchercard pathname={dario} name="Dario Laborde Jimenez" carrer="Web master" />
+                            <Researchercard pathname={joseMiguel} name="Jose Miguel Santos" carrer="Robot vision" />
+                            <Researchercard pathname={josueCajamarcaContreras} name="Jose Cajamarca Contreras" carrer="..." />
+                            <Researchercard pathname={vicenteAlvaradoToala} name="Vicente Alvarado Toala" carrer="Biosignal analysis" />
+                            <Researchercard pathname={domenicaCordovaBermeo} name="Domenica Cordova Bermeo" carrer="Autonomous assembly" />
+                            <Researchercard pathname={erickFloresCampana} name="Erick Flores Campana" carrer="..." />
                         </div>
                     </div>
                 </div>

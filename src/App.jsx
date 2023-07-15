@@ -5,8 +5,6 @@ import { Home } from "./pages/Home"
 import { People } from "./pages/People"
 import { Publications } from "./pages/Publications"
 import { Research } from "./pages/Research"
-import { Teaching } from "./pages/Teaching"
-import { Openpositions } from "./pages/Openpositions"
 import { Contact } from "./pages/Contact"
 import { ChakraProvider } from '@chakra-ui/react'
 import "./App.css"
@@ -24,8 +22,6 @@ function App() {
                 <Route path="/people/" element={<People />}></Route>
                 <Route path="/publications/" element={<Publications />}></Route>
                 <Route path="/research/" element={<Research />}></Route>
-                <Route path="/teaching/" element={<Teaching />}></Route>
-                <Route path="/openpositions/" element={<Openpositions />}></Route>
                 <Route path="/contact/" element={<Contact />}></Route>
               </Routes>
             </main>
