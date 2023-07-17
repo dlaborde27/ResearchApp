@@ -49,6 +49,12 @@
     width: 85%;
 }
 
+h2 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 25px;
+}
+
 @media only screen and (max-width: 700px) {
     #text {
         display: none;

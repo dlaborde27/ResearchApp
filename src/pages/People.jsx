@@ -11,6 +11,7 @@ import vicenteAlvaradoToala from "../../public/vicente_alvarado_toala.png"
 import bolivarNunezMontoya from "../../public/bolivar_nunez_montoya.png"
 import domenicaCordovaBermeo from "../../public/domenica_cordova_bermeo.jpg"
 import erickFloresCampana from "../../public/erick_flores_campana.jpg"
+import joelQuindeOrdonez from "../../public/joel_quinde_ordonez.jpg"
 import "./People.css"
 
 export function People() {
@@ -43,6 +44,7 @@ export function People() {
                             <Researchercard pathname={vicenteAlvaradoToala} name="Vicente Alvarado Toala" carrer="Biosignal analysis" />
                             <Researchercard pathname={domenicaCordovaBermeo} name="Domenica Cordova Bermeo" carrer="Autonomous assembly" />
                             <Researchercard pathname={erickFloresCampana} name="Erick Flores Campana" carrer="..." />
+                            <Researchercard pathname={joelQuindeOrdonez} name="Joel Quinde Ordonez" carrer="Autonomous manipulation" />
                         </div>
                     </div>
                 </div>

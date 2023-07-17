@@ -18,7 +18,7 @@ export function Research() {
                 <h1 id="text">Research</h1>
                 <div id="primary-content">
                     <div id="separated-content">
-                        <Routedirection mensaje="Publications" />
+                        <Routedirection mensaje="Research" />
                         <Flex wrap="wrap" justifyContent="center" gap={25}>
                             <Publicationcard investigation="Autonomous Assembly System of a Transmission Shaft using a Robotic Arm and Autonomous Learning Algorithms" 
                             orgPublished="Undergraduate degree program"
