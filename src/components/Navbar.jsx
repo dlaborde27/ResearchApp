@@ -20,7 +20,7 @@ export function Navbar() {
           <li><NavLink className={({ isActive })=> isActive ? "active-link" : "nav-item" } to="/people">People</NavLink></li>
           <li><NavLink className={({ isActive })=> isActive ? "active-link" : "nav-item" } to="/publications">Publications</NavLink></li>
           <li><NavLink className={({ isActive })=> isActive ? "active-link" : "nav-item" } to="/research">Research</NavLink></li>
-          <li><NavLink className={({ isActive })=> isActive ? "active-link" : "nav-item" } to="/contact">Contact</NavLink></li>
+          {/* <li><NavLink className={({ isActive })=> isActive ? "active-link" : "nav-item" } to="/contact">Contact</NavLink></li> */}
         </ul>
         <img id="menu" src={menu} alt="menu" />
       </nav>
