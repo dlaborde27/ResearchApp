@@ -23,8 +23,6 @@ export function Publicationcard(props) {
                         </Box>
                         <Box>
                             <Text as='b'>Available on: </Text>
-                            {/* <Link href={props.linkInvestigation} isExternal> Investigation online <ExternalLinkIcon mx='2px' /></Link> */}
-                            {/* {props.linkInvestigation && <Link href={props.linkInvestigation} isExternal> Investigation online <ExternalLinkIcon mx='2px' /></Link>} */}
                             {props.linkInvestigation ? (<Link href={props.linkInvestigation} isExternal> Investigation online <ExternalLinkIcon mx='2px' /></Link>) : 
                                                         (<span> Coming soon ... </span>)}
                         </Box>

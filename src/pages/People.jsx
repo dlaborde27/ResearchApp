@@ -35,15 +35,15 @@ export function People() {
                         </div>
                         <h2>Lab Members</h2>
                         <div id="grid">
-                            <Researchercard pathname={carlos} name="Carlos Jimenez Farfan, Ing" carrer="Autonomous driving" />
+                            <Researchercard pathname={carlos} name="Carlos Jimenez Farfan, Ing" carrer="Autonomous Navigation" />
                             <Researchercard pathname={bolivarNunezMontoya} name="Bolivar Nunez Montoya, Ing" carrer="Prótesis" />
 
                             <Researchercard pathname={dario} name="Dario Laborde Jimenez" carrer="Web master" />
-                            <Researchercard pathname={joseMiguel} name="Jose Miguel Santos" carrer="Robot vision" />
-                            <Researchercard pathname={josueCajamarcaContreras} name="Jose Cajamarca Contreras" carrer="..." />
+                            <Researchercard pathname={joseMiguel} name="Jose Miguel Santos" carrer="Machine and Robot Vision" />
+                            <Researchercard pathname={josueCajamarcaContreras} name="Jose Cajamarca Contreras" carrer="Autonomous Object Storage" />
                             <Researchercard pathname={vicenteAlvaradoToala} name="Vicente Alvarado Toala" carrer="Biosignal analysis" />
                             <Researchercard pathname={domenicaCordovaBermeo} name="Domenica Cordova Bermeo" carrer="Autonomous assembly" />
-                            <Researchercard pathname={erickFloresCampana} name="Erick Flores Campana" carrer="..." />
+                            <Researchercard pathname={erickFloresCampana} name="Erick Flores Campana" carrer="VET Imaging Analysis" />
                             <Researchercard pathname={joelQuindeOrdonez} name="Joel Quinde Ordonez" carrer="Autonomous manipulation" />
                         </div>
                     </div>

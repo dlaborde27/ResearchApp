@@ -1,3 +1,8 @@
 .ooo:hover {
     background-color: #08bee61f;
 }
+
+h2 > a {
+    font-size: larger;
+    font-weight: 600;
+}

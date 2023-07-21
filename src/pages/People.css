@@ -46,13 +46,13 @@
 }
 
 #img img {
-    width: 85%;
+    width: 95%;
+    border-radius: 1%;
 }
 
 h2 {
-    font-family: 'Work Sans';
-    font-weight: 700;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 700px) {

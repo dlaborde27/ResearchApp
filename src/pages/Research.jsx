@@ -9,7 +9,7 @@ import naturalObjectManipulation from "../../public/naturalObjectManipulation.jp
 import autonomousObjectManipulation from "../../public/autonomousObjectManipulation.jpg"
 import HWManipulationVideo from "../../public/HWManipulationVideo.mp4"
 import anthropomorphicRoboticHandRealTimeTest from "../../public/anthropomorphicRoboticHandRealTimeTest.mp4"
-import "./Research.css"
+import naturalObjectManipulationTest from "../../public/naturalObjectManipulationTest.mp4"
 import { Center, Flex, Spacer } from '@chakra-ui/react'
 
 export function Research() {
@@ -33,13 +33,9 @@ export function Research() {
 
                             <Publicationcard investigation="A Deep Learning-Based Algorithm for ECG Arrhythmia Classification" 
                             orgPublished="The IEEE 13th International Conference on Pattern Recognition Systems (ICPRS)"
-                            linkInvestigation=""
+                            linkInvestigation="https://ieeexplore.ieee.org/document/10179058"
                             summary="This investigation aims to automatically classify five classes of arrhythmia present in Electrocardiograms (ECG) by using two Deep Learning (DL)-based models. One is based on Convolutional Neural Network (CNN) and the other is based on Residual Networks (ResNet). The main motivation of this research is to enhance the field of medicine and assist doctors in the diagnosis of arrhythmia. The DL-based models were trained using the MIT Arrhythmia database. Results with the validation dataset shows that the CNN-based model achieved an accuracy of 99.32% and a F1-Score of 98.55%; the ResNet-based model achieved 99.32% and 98.55% for accuracy and F1-Score, respectively"
                             img={arrhythmiaClassification}/>
-
-                            
-
-
 
                             <Publicationcard investigation="Fully Autonomous Deep Learning RGB-D Vision-based Object Manipulation with an Anthropomorphic Robotic Hand" 
                             orgPublished="Conference of the Korean Society for Communications and Communications"
@@ -63,7 +59,10 @@ export function Research() {
                             orgPublished="Applied Intelligence"
                             linkInvestigation="https://link.springer.com/article/10.1007/s10489-020-01870-6"
                             summary="Human hands can perform complex manipulation of various objects. It is beneficial if anthropomorphic robotic hands can manipulate objects like human hands. However, it is still a challenge due to the high dimensionality and lack of machine intelligence. We implement a novel framework based on Deep Reinforcement Learning (DRL) with Deep Grasping Probability Network (DGPN) to grasp and relocate variously shaped objects. The proposed DRL with DGPN is evaluated by grasping and relocating five objects including apple, light bulb, cup, bottle, and can. The results show that the standard DRL only achieves an average success rate of 22.60%, whereas DRL with DGPN achieves 89.40% for the grasping and relocation tasks of the objects."
-                            img={naturalObjectManipulation}/>
+                            img={naturalObjectManipulation}
+                            videoTitle="Test:"
+                            video={naturalObjectManipulationTest}/>
+                            
                         </Flex>
                         
                     </div>
