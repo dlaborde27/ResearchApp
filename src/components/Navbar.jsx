@@ -17,7 +17,7 @@ export function Navbar() {
       <nav id='navbar'>
         <NavLink to="/">
           <Image
-            htmlWidth='90%'
+            htmlWidth='45%'
             src={logo}
             alt='Logo LBAA'
           />
