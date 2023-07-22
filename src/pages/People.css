@@ -11,7 +11,7 @@
     writing-mode: vertical-lr;
     transform: rotate(360deg);
     margin: 0;
-    padding: 7% 1.4% 1.4% 1.4%;
+    padding: 7% 1.4% 0 1.4%;
     min-height: 100vh;
     border-right: 2px solid darkgray;
 }
@@ -26,16 +26,15 @@
 #separated-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     width: 100%;
     height: 100%;
 }
 
-#grid {
+.grid {
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
     justify-items: start;
 }
@@ -46,7 +45,7 @@
 }
 
 #img img {
-    width: 95%;
+    width: 70%;
     border-radius: 1%;
 }
 
@@ -58,5 +57,27 @@ h2 {
 @media only screen and (max-width: 700px) {
     #text {
         display: none;
+    }
+    #img img {
+        width: 90%;
+    }
+    #lab-members {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    #primary-content {
+        display: flex;
+        justify-content: center;
+    }
+    #separated-content {
+        width: 1500px;
     }
 }

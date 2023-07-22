@@ -6,7 +6,6 @@ footer {
     background: #111;
     height: 100%;
     width: 100%;
-    font-family: "Open Sans";
     margin-top: auto;
     color: #fff;
 }
@@ -22,9 +21,8 @@ footer {
 }
 
 .footer-content h3{
-    font-size: 1.7rem;
+    font-size: 1.7em;
     font-weight: 350;
-    text-transform: capitalize;
     line-height: 2rem;
 }
 
@@ -46,9 +44,8 @@ footer {
 }
 
 .socials a i{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     transition: color .4s ease;
-
 }
 
 .socials a:hover i{
@@ -58,19 +55,36 @@ footer {
 .footer-bottom{
     background: #000;
     width: 100%;
-    padding: 1.7% 0;
+    padding: 2% 0;
     text-align: center;
 }
 
 .footer-bottom p{
     font-size: 0.9rem;
     word-spacing: 2px;
-    text-transform: capitalize;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
+    .footer-content{
+        row-gap: 0.6rem;
+        margin: 1rem 0;
+    }
+    .footer-content h3{
+        font-size: 100%;
+        padding: 0 15%;
+        font-weight: 350;
+        line-height: 1.5rem;
+    }
     .footer-bottom p{
         font-size: 60%;
-        text-transform: capitalize;
+    }
+    .socials a i{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .footer-bottom{
+        padding: 0.5% 0;
     }
 }

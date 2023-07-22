@@ -26,15 +26,15 @@ export function People() {
                             <img src={equipoFake} alt="equipo fake"/>
                         </div>
                         <h2>Lab Director</h2>
-                        <div id="grid">
+                        <div className="grid">
                             <Researchercard pathname={edwinValarezo} name="Edwin Valarezo Añazco, Ph.D." carrer="Ph.D. in Electronics and Information Convergence Engineering" />
                         </div>
                         <h2>Lab Manager</h2>
-                        <div id="grid">
+                        <div className="grid">
                             <Researchercard pathname={daniela} name="Daniela Espin Ramos" carrer="Bioimaging analysis" />
                         </div>
                         <h2>Lab Members</h2>
-                        <div id="grid">
+                        <div className="grid" id="lab-members">
                             <Researchercard pathname={carlos} name="Carlos Jimenez Farfan, Ing" carrer="Autonomous Navigation" />
                             <Researchercard pathname={bolivarNunezMontoya} name="Bolivar Nunez Montoya, Ing" carrer="Prótesis" />
 
