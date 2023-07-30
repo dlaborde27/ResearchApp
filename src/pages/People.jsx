@@ -25,19 +25,23 @@ export function People() {
                         <div id="img">
                             <img src={equipoFake} alt="equipo fake"/>
                         </div>
-                        <h2>Lab Director</h2>
+                        <h2 className="subtitulo">Lab Director</h2>
                         <div className="grid">
-                            <Researchercard pathname={edwinValarezo} name="Edwin Valarezo Añazco, Ph.D." carrer="Ph.D. in Electronics and Information Convergence Engineering" />
+                            <Researchercard pathname={edwinValarezo} name="Edwin Valarezo Añazco, Ph.D." 
+                            carrer="Ph.D. in Electronics and Information Convergence Engineering" 
+                            linkLinkedIn="https://www.linkedin.com/in/edwin-valarezo-a%C3%B1azco-88099b66/?originalSubdomain=ec"
+                            linkResearchGate="https://www.researchgate.net/profile/Edwin-Valarezo-Anazco"
+                            linkInstagram="https://www.instagram.com/edwin_valarezo_a/?hl=en"/>
+                            
                         </div>
-                        <h2>Lab Manager</h2>
+                        <h2 className="subtitulo">Lab Manager</h2>
                         <div className="grid">
                             <Researchercard pathname={daniela} name="Daniela Espin Ramos" carrer="Bioimaging analysis" />
                         </div>
-                        <h2>Lab Members</h2>
+                        <h2 className="subtitulo">Lab Members</h2>
                         <div className="grid" id="lab-members">
                             <Researchercard pathname={carlos} name="Carlos Jimenez Farfan, Ing" carrer="Autonomous Navigation" />
-                            <Researchercard pathname={bolivarNunezMontoya} name="Bolivar Nunez Montoya, Ing" carrer="Prótesis" />
-
+                            <Researchercard pathname={bolivarNunezMontoya} name="Bolivar Nunez Montoya, Ing" carrer="Prosthesis" />
                             <Researchercard pathname={dario} name="Dario Laborde Jimenez" carrer="Web master" />
                             <Researchercard pathname={joseMiguel} name="Jose Miguel Santos" carrer="Machine and Robot Vision" />
                             <Researchercard pathname={josueCajamarcaContreras} name="Jose Cajamarca Contreras" carrer="Autonomous Object Storage" />

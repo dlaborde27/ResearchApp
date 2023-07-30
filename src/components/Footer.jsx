@@ -6,7 +6,7 @@ export function Footer() {
         <>
             <footer>
                 <div class="footer-content">
-                    <h3>Laboratorio Bioinformática y Aprendizaje Autónomo - LBA<sup>2</sup></h3>
+                    <h3>Laboratorio de Bioinformática y Aprendizaje Autónomo - LBA<sup>2</sup></h3>
                     <ul class="socials">
                         <li><a href="https://www.youtube.com/@espol1" target="_blank"><i className="fab fa-instagram"></i></a></li>
                         <li><a href="https://www.youtube.com/@espol1" target="_blank"><i className="fab fa-youtube"></i></a></li>
@@ -14,7 +14,7 @@ export function Footer() {
                     </ul>
                 </div>
                 <div class="footer-bottom">
-                    <p>Copyright &copy;2023 Laboratorio Bioinformática y Aprendizaje Autónomo</p>
+                    <p>Copyright &copy;2023 Laboratorio de Bioinformática y Aprendizaje Autónomo</p>
                 </div>
             </footer>
         </>

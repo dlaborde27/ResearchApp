@@ -22,7 +22,7 @@ export function Publications() {
                                     </LinkOverlay>
                                 </Heading>
                                 <Text mb='1'>
-                                    <Box as='span' color='teal.400' fontWeight='bold'>Autors: </Box>
+                                    <Box as='span' color='teal.400' fontWeight='bold'>Authors: </Box>
                                     Edwin Valarezo Añazco, Patricio Rivera Lopez, Sangmin Lee, Kyungmin Byun, Tae-Seong Kim
                                 </Text>
                                 <Text mb='3'>
@@ -38,7 +38,7 @@ export function Publications() {
                                     </LinkOverlay>
                                 </Heading>
                                 <Text mb='1'>
-                                    <Box as='span' color='teal.400' fontWeight='bold'>Autors: </Box>
+                                    <Box as='span' color='teal.400' fontWeight='bold'>Authors: </Box>
                                      Mohammed A Al-Masni, Mugahed A Al-Antari, Jeong-Min Park, Geon Gi, Tae-Yeon Kim, Patricio Rivera, Edwin Valarezo, Mun-Taek Choi, Seung-Moo Han, Tae-Seong Kim
                                 </Text>
                                 <Text mb='3'>
@@ -54,7 +54,7 @@ export function Publications() {
                                     </LinkOverlay>
                                 </Heading>
                                 <Text mb='1'>
-                                    <Box as='span' color='teal.400' fontWeight='bold'>Autors: </Box>
+                                    <Box as='span' color='teal.400' fontWeight='bold'>Authors: </Box>
                                     Bolivar Núñez-Montoya, Mauricio Valarezo Añazco, Alexander Saravia-Avila, Francis R Loayza, Edwin Valarezo Añazco, Efrain Teran
                                 </Text>
                                 <Text mb='3'>
@@ -70,7 +70,7 @@ export function Publications() {
                                     </LinkOverlay>
                                 </Heading>
                                 <Text mb='1'>
-                                    <Box as='span' color='teal.400' fontWeight='bold'>Autors: </Box>
+                                    <Box as='span' color='teal.400' fontWeight='bold'>Authors: </Box>
                                     Añazco Edwin Valarezo, Lopez Patricio Rivera, Hyemin Park, Nahyeon Park, Tae-Seong Kim
                                 </Text>
                                 <Text mb='3'>
@@ -86,7 +86,7 @@ export function Publications() {
                                     </LinkOverlay>
                                 </Heading>
                                 <Text mb='1'>
-                                    <Box as='span' color='teal.400' fontWeight='bold'>Autors: </Box>
+                                    <Box as='span' color='teal.400' fontWeight='bold'>Authors: </Box>
                                     Edwin Valarezo Anazco, Patricio Rivera Lopez, Nahyeon Park, Jiheon Oh, Gahyeon Ryu, Mugahed A Al-antari, Tae-Seong Kim
                                 </Text>
                                 <Text mb='3'>
@@ -102,7 +102,7 @@ export function Publications() {
                                     </LinkOverlay>
                                 </Heading>
                                 <Text mb='1'>
-                                    <Box as='span' color='teal.400' fontWeight='bold'>Autors: </Box>
+                                    <Box as='span' color='teal.400' fontWeight='bold'>Authors: </Box>
                                     Edwin Valarezo Añazco, Patricio Rivera Lopez, Hyemin Park, Nahyeon Park, Jiheon Oh, Sangmin Lee, Kyungmin Byun, Tae-Seong Kim
                                 </Text>
                                 <Text mb='3'>
@@ -118,7 +118,7 @@ export function Publications() {
                                     </LinkOverlay>
                                 </Heading>
                                 <Text mb='1'>
-                                    <Box as='span' color='teal.400' fontWeight='bold'>Autors: </Box>
+                                    <Box as='span' color='teal.400' fontWeight='bold'>Authors: </Box>
                                     Edwin Valarezo Añazco, Patricio Rivera Lopez, Na Hyeon Park, Ji Heon Oh, Ga Hyeon Ryu, Tae-Seong Kim
                                 </Text>
                                 <Text mb='3'>
@@ -134,7 +134,7 @@ export function Publications() {
                                     </LinkOverlay>
                                 </Heading>
                                 <Text mb='1'>
-                                    <Box as='span' color='teal.400' fontWeight='bold'>Autors: </Box>
+                                    <Box as='span' color='teal.400' fontWeight='bold'>Authors: </Box>
                                     Edwin Valarezo Añazco, Patricio Rivera Lopez, Tae‐Seong Kim
                                 </Text>
                                 <Text mb='3'>
@@ -150,7 +150,7 @@ export function Publications() {
                                     </LinkOverlay>
                                 </Heading>
                                 <Text mb='1'>
-                                    <Box as='span' color='teal.400' fontWeight='bold'>Autors: </Box>
+                                    <Box as='span' color='teal.400' fontWeight='bold'>Authors: </Box>
                                     Edwin Valarezo Añazco, Han Seng Ju, Kim Kangil, Patricio Rivera Lopez, Tae-Seong Kim, Lee Sangmin
                                 </Text>
                                 <Text mb='3'>
@@ -166,7 +166,7 @@ export function Publications() {
                                     </LinkOverlay>
                                 </Heading>
                                 <Text mb='1'>
-                                    <Box as='span' color='teal.400' fontWeight='bold'>Autors: </Box>
+                                    <Box as='span' color='teal.400' fontWeight='bold'>Authors: </Box>
                                     Víctor Asanza, Enrique Peláez, Francis Loayza, Iker Mesa, Javier Díaz, Edwin Valarezo
                                 </Text>
                                 <Text mb='3'>

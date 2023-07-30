@@ -8,9 +8,10 @@ export function Home() {
       <div id="all-content">
         <h1 id="text">Home</h1>
         <div id="primary-content">
-          <div className="contenedor-imagen">
-            <img id="team" src={teamTurtle} alt="Team Turtle" />
-          </div>
+          <div id="separated-content">
+            <div className="contenedor-imagen">
+              <img id="team" src={teamTurtle} alt="Team Turtle" />
+            </div>
             <h2 id="welcome">Welcome to the Laboratory of Bioinformatics and Autonomous Learning (LBA<sup>2</sup>)</h2>
             <article id="lab-overview">LBA2 led by Professor Edwin Valarezo Añazco, is dedicated to fundamental and applied research in healthcare, medical, robot, and advanced control fields.</article>
             <div id="contenedor-contenido">
@@ -19,7 +20,7 @@ export function Home() {
                 <img src={teamWorking} alt="Team Working" />
               </div>
             </div>
-            
+          </div>
         </div>
       </div>
     </>
